@@ -20,8 +20,7 @@
     {
       "name": "Darkflix (Community)",
       "id": "darkflix",
-      "color": "#000000",
-      "default": true
+      "color": "#000000"
     },
     {
       "name": "Jellyskin (Community)",
@@ -31,7 +30,8 @@
     {
       "name": "Kaleidochromic (Community)",
       "id": "kaleidochromic",
-      "color": "#1d202d"
+      "color": "#1d202d",
+      "default": true
     },
     {
       "name": "Light (Official)",
