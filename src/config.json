@@ -3,33 +3,69 @@
   "multiserver": false,
   "themes": [
     {
-      "name": "Apple TV",
+      "name": "Apple TV (Official)",
       "id": "appletv",
       "color": "#bcbcbc"
-    }, {
-      "name": "Blue Radiance",
+    },
+    {
+      "name": "Blue Radiance (Official)",
       "id": "blueradiance",
       "color": "#011432"
-    }, {
-      "name": "Dark",
+    },
+    {
+      "name": "Dark (Official)",
       "id": "dark",
-      "color": "#202020",
+      "color": "#202020"
+    },
+    {
+      "name": "Darkflix (Community)",
+      "id": "darkflix",
+      "color": "#000000",
       "default": true
-    }, {
-      "name": "Light",
+    },
+    {
+      "name": "Jellyskin (Community)",
+      "id": "jellyskin",
+      "color": "#010e18"
+    },
+    {
+      "name": "Kaleidochromic (Community)",
+      "id": "kaleidochromic",
+      "color": "#1d202d"
+    },
+    {
+      "name": "Light (Official)",
       "id": "light",
       "color": "#303030"
-    }, {
-      "name": "Purple Haze",
+    },
+    {
+      "name": "Monochromic (Community)",
+      "id": "monochromic",
+      "color": "#101010"
+    },
+    {
+      "name": "Novachromic (Community)",
+      "id": "novachromic",
+      "color": "#cecece"
+    },
+    {
+      "name": "Purple Haze (Official)",
       "id": "purplehaze",
       "color": "#000420"
-    }, {
-      "name": "WMC",
+    },
+    {
+      "name": "WMC (Official)",
       "id": "wmc",
       "color": "#0c2450"
     }
   ],
-  "menuLinks": [],
+  "menuLinks": [
+    {
+      "name": "Request",
+      "icon": "add",
+      "url": "https://seer.petar.cc/"
+    }
+  ],
   "servers": [],
   "plugins": [
     "playAccessValidation/plugin",

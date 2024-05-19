@@ -319,6 +319,7 @@ function onMainDrawerSelect() {
 function refreshLibraryInfoInDrawer(user) {
     let html = '';
     html += '<div style="height:.5em;"></div>';
+    html += '<h3 class="pageTitle pageTitleWithLogo pageTitleWithDefaultLogo" style="padding: .9em 0 .9em 2.4em !important;margin: 0 0 0 1.5em !important;" aria-hidden="true"></h3>';
     html += `<a is="emby-linkbutton" class="navMenuOption lnkMediaFolder" href="#/home.html"><span class="material-icons navMenuOptionIcon home" aria-hidden="true"></span><span class="navMenuOptionText">${globalize.translate('Home')}</span></a>`;
 
     // placeholder for custom menu links
